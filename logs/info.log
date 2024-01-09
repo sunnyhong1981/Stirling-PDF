@@ -1,0 +1,17 @@
+2024-01-09 05:10:39,857 INFO s.s.S.SPdfApplication [main] Starting SPdfApplication using Java 17.0.9 with PID 1 (/app.jar started by root in /)
+2024-01-09 05:10:39,948 INFO s.s.S.SPdfApplication [main] No active profile set, falling back to 1 default profile: "default"
+2024-01-09 05:10:47,441 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat initialized with port 8080 (http)
+2024-01-09 05:10:47,482 INFO o.a.c.h.Http11NioProtocol [main] Initializing ProtocolHandler ["http-nio-8080"]
+2024-01-09 05:10:47,489 INFO o.a.c.c.StandardService [main] Starting service [Tomcat]
+2024-01-09 05:10:47,490 INFO o.a.c.c.StandardEngine [main] Starting Servlet engine: [Apache Tomcat/10.1.17]
+2024-01-09 05:10:47,607 INFO o.a.c.c.C.[.[.[/] [main] Initializing Spring embedded WebApplicationContext
+2024-01-09 05:10:47,611 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 6802 ms
+2024-01-09 05:10:51,068 INFO o.s.b.a.e.w.EndpointLinksResolver [main] Exposing 1 endpoint(s) beneath base path '/actuator'
+2024-01-09 05:10:51,173 INFO o.a.c.h.Http11NioProtocol [main] Starting ProtocolHandler ["http-nio-8080"]
+2024-01-09 05:10:51,284 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat started on port 8080 (http) with context path ''
+2024-01-09 05:10:51,349 INFO s.s.S.SPdfApplication [main] Started SPdfApplication in 14.158 seconds (process running for 16.794)
+2024-01-09 05:11:41,179 INFO o.a.c.c.C.[.[.[/] [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-01-09 05:11:41,183 INFO o.s.w.s.DispatcherServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2024-01-09 05:11:41,188 INFO o.s.w.s.DispatcherServlet [http-nio-8080-exec-1] Completed initialization in 3 ms
+2024-01-09 05:19:44,760 INFO s.s.S.c.a.RearrangePagesPDFController [http-nio-8080-exec-3] newPageOrder = [0, 1, 2, 3, 4]
+2024-01-09 05:19:44,763 INFO s.s.S.c.a.RearrangePagesPDFController [http-nio-8080-exec-3] totalPages = 8
